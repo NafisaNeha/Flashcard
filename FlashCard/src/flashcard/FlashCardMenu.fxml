@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="scenePane" prefHeight="400.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flashcard.FlashCardMenuController">
+   <children>
+      <Label alignment="CENTER" layoutX="189.0" layoutY="41.0" prefHeight="64.0" prefWidth="242.0" style="-fx-background-color: #74b9ff;" text="Flash Card" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT Italic" size="42.0" />
+         </font></Label>
+      <Button alignment="CENTER" layoutX="221.0" layoutY="143.0" mnemonicParsing="false" onAction="#newFlashCard" prefHeight="48.0" prefWidth="173.0" style="-fx-background-color: #dfe6e9;" text="Create FlashCard" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></Button>
+      <Button alignment="CENTER" layoutX="224.0" layoutY="206.0" mnemonicParsing="false" onAction="#playFlashCard" prefHeight="48.0" prefWidth="173.0" style="-fx-background-color: #dfe6e9;" text="Play FlashCard" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="224.0" layoutY="273.0" mnemonicParsing="false" onAction="#endProgram" prefHeight="48.0" prefWidth="173.0" style="-fx-background-color: #dfe6e9;" text="Exit" textAlignment="CENTER">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
